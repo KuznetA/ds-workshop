@@ -10,6 +10,8 @@
 
 int main(int argc, char *argv[]){
     
-    for(int i = 1; i < argc; i++)
-        std::cout << argv[i] << std::endl;
+    for(int i = 1; i < argc; i++) {
+        int silly = (int)*argv[i] * 2;
+        std::cout << silly << std::endl;
+    }
 }
